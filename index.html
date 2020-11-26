@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Simon Game</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="images/game.png" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body">
+    <h1 id="score-title">Press any Key to Start</h1>
+    <p class="restart-msg hide">Press any key to restart </p>
+    <p class="restart-msg-mobile hide">Double tap on empty space to restart </p>
+    <p class="high-score non-visible">High score: <span class="high-score-value">0</span> </p>
+
+    <!-- Buttons -->
+    <div class="container">
+        <div class="row">
+            <button class="btn green" id="green"><img class="up arrow" src="images/right-arrow.png"
+                    alt="up-arrow"></button>
+
+        </div>
+
+        <div class="row">
+            <button class="btn red" id="red"><img class="left arrow" src="images/right-arrow.png"
+                    alt="left-arrow"></button>
+            <button class="btn yellow" id="yellow"><img class="right arrow" src="images/right-arrow.png"
+                    alt="right-arrow"></button>
+        </div>
+
+        <div class="row">
+
+            <button class="btn blue" id="blue"><img class="down arrow" src="images/right-arrow.png"
+                    alt="down-arrow"></button>
+        </div>
+    </div>
+
+    <!-- Javascript Files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/mathusummut/confetti.js/confetti.min.js"></script>
+    <script src="index.js" charset="utf-8" async defer></script>
+
+</body>
+
+</html>
